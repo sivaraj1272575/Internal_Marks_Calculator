@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/cardTheory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:orientation="vertical"
+        android:background="@drawable/borders">
+
+
+        <TextView
+            android:id="@+id/courseName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:padding="3dp"
+            android:text="Course Name"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/courseCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text="Course Code"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:background="@drawable/borders"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text="Continuous Assessment"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:background="@drawable/borders"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+
+            <TextView
+                android:id="@+id/ca1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:text="CA1"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:background="@drawable/borders"/>
+
+
+            <TextView
+                android:id="@+id/ca2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:text="CA2"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:background="@drawable/borders"/>
+
+            <TextView
+                android:id="@+id/ca3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:text="CA3"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:background="@drawable/borders"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:text="Max. (25)"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:background="@drawable/borders"/>
+            <TextView
+                android:id="@+id/aggCa"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:text="Aggregate CA"
+                android:textColor="@color/black"
+                android:background="@drawable/borders"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:text="Tutorial 1"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:background="@drawable/borders"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:text="Tutorial 2"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:background="@drawable/borders"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:text="Assignment PPT"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:background="@drawable/borders"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/tut1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:text="Tutorials"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:background="@drawable/borders"/>
+
+            <TextView
+                android:id="@+id/tut2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:text="Tutorials"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:background="@drawable/borders"/>
+
+            <TextView
+                android:id="@+id/ap"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:text="Assignment PPT"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:background="@drawable/borders"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:text="Total"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:background="@drawable/borders"/>
+
+            <TextView
+                android:id="@+id/total"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:text="Total Val"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
